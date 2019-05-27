@@ -8,10 +8,12 @@ p {
 /* MAIN CONTENT */
 
 .main-content .container {
+    width: 800px;
     width: 50rem;
 }
 
 div[class*="col"] {
+    padding: 48px;
     padding: 3rem;
 }
 
@@ -23,6 +25,7 @@ div[class*="col"] {
 
 .row-1 h1 {
     color: hsla(43, 96%, 59%, 1);
+    padding-bottom: 8px;
     padding-bottom: 0.5rem;
 }
 
@@ -42,10 +45,12 @@ div[class*="col"] {
 }
 
 .column-1 h3,.column-2 h3 {
+    margin-bottom: 24px;
     margin-bottom: 1.5rem;
 }
 
 .column-1 h3 span, .column-2 h3 span {
+    background-image: -webkit-linear-gradient(hsla(43, 96%, 59%, 1) 0%, hsla(43, 96%, 59%, 1) 100%);
     background-image: linear-gradient(hsla(43, 96%, 59%, 1) 0%, hsla(43, 96%, 59%, 1) 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
@@ -53,12 +58,17 @@ div[class*="col"] {
 }
 
 .column-1 .price {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: hsl(348, 100%, 90%, 1);
 }
 
 .column-1 .price span.h1 {
+    margin-right: 8px;
     margin-right: 0.5rem;
     color: #fff;
 
@@ -66,6 +76,7 @@ div[class*="col"] {
 
 .column-1 button {
     background-color: hsla(43, 96%, 59%, 1);
+    margin-top: 40px;
     margin-top: 2.5rem;
 }
 
@@ -73,7 +84,8 @@ div[class*="col"] {
     background-color: hsla(43, 96%, 59%, 1);
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
     color: #fff;
-    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
   }
 
 /* COLUMN 2 */
