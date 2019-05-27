@@ -10,6 +10,7 @@ p {
 .main-content .container {
     width: 800px;
     width: 50rem;
+    overflow: hidden;
 }
 
 div[class*="col"] {
@@ -41,7 +42,6 @@ div[class*="col"] {
 /* COLUMN 1 */
 .column-1 {
     background: rgba(0, 0, 0, 0.1);
-    border-radius: 0 0 0 5px; /* Fix border radius not apply to column background */
 }
 
 .column-1 h3,.column-2 h3 {
@@ -122,4 +122,5 @@ div[class*="col"] {
     .row-1 h3 {
         padding-bottom: 0.5rem;
     }
+
 }
