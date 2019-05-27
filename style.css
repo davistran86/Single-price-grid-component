@@ -58,7 +58,7 @@ div[class*="col"] {
     color: hsl(348, 100%, 90%, 1);
 }
 
-.column .price span.h1 {
+.column-1 .price span.h1 {
     margin-right: 0.5rem;
     color: #fff;
 
@@ -81,6 +81,7 @@ div[class*="col"] {
 .column-2 p{
     color: hsl(348, 100%, 90%, 1);
 }
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 576px) {
